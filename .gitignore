@@ -73,3 +73,14 @@ ehthumbs.db
 # PowerShell history
 ConsoleHost_history.txt
 
+
+
+# Frontend-specific entries merged from /frontend/.gitignore
+# (removed duplicate file to keep ignores centralized)
+logs
+*.log
+lerna-debug.log
+dist-ssr
+*.local
+*.sw?
+
