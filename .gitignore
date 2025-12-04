@@ -1,0 +1,75 @@
+# Node modules
+node_modules/
+/frontend/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+.parcel-cache/
+.next/
+.vite/
+/frontend/dist/
+/frontend/build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.*.local
+
+# PnP
+.pnp/
+.pnp.js
+
+# Coverage
+coverage/
+.nyc_output/
+/frontend/coverage/
+
+# Test output/cache
+.cache/
+.eslintcache
+.turbo/
+.next/cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.iml
+
+# Optional npm cache directory
+.npm
+
+# VS Code workspace storage: ignore all but keep settings and extensions
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Misc
+*.pem
+*.key
+.envrc
+.local
+
+# PowerShell history
+ConsoleHost_history.txt
+
